@@ -8,5 +8,5 @@ td, th{
 }
 
 tbody tr:nth-child(odd){
-    background-color: aqua;
+    background-color: lightgrey;
 }
