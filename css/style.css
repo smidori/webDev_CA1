@@ -59,17 +59,42 @@ tbody tr:nth-child(odd){
     /*border-color: black;
     border-style: solid;*/
 }
-
+/*
 .content .side-menu .menu-button {
     background-color: blueviolet;
     padding: 2ch;
     margin: 2ch;
     border-radius: 10px;
 }
+*/
+
 
 .content .side-menu .menu-button span {
     font-size: large;
     color: white;
+}
+
+.content .side-menu a {
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 2ch;
+    margin: 1ch;
+    border-radius: 5px;
+    min-width: 20ch;
+    
+}
+
+
+.content .side-menu div {
+    display: flex;
+    max-height: 7ch;
+}
+
+.content .side-menu div h2 {
+    font-size: x-large;
+    color: blue;
+    padding: 2ch;
+    padding-bottom:  0ch;
 }
 
 .content .table-view {

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>CA1</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="side-menu">
+            <div><h2>Tables</h2></div>
+            <div class="menu-button"><a href="department.html"><span>Department</span></a></div>
+            <div class="menu-button"><a href="department-manager.html"><span>Department-Manager</span></a></div>
+            <div class="menu-button"><a href="employee.html"><span>Employee</span></a></div>
+            <div class="menu-button"><a href="employee-department.html"><span>Employee-Department</span></a></div>
+            <div class="menu-button"><a href="job-title.html"><span>Job Title</span></a></div>
+            <div class="menu-button"><a href="reason.html"><span>Reason</span></a></div>
+            <div class="menu-button"><a href="salary.html"><span>Salary</span></a></div>
+        </div>
+        <div class="table-view">
+            <table>
+                <caption><strong>Salary</strong></caption>
+                <thead>
+                    <tr>
+                        <th>id<img src="images/pk.png" class="icon-table" alt="Primary Key"></th>
+                        <th>amount <span class="data-type">(decimal)</span></th>
+                        <th>date_start <span class="data-type">(date)</span></th>
+                        <th>date_end <span class="data-type">(date)</span></th>
+                        <th>is_current <span class="data-type">(boolean)</span></th>
+                        <th>reason_id <img src="images/fk.png" class="icon-table" alt="Foreign Key"></th>
+                        <th>employee_id <img src="images/fk.png" class="icon-table" alt="Foreign Key"></th>                        
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>2,000</td>
+                        <td>28/11/1997</td>
+                        <td>30/06/1999</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>102</td>
+                        <td>5,509</td>
+                        <td>26/03/1998</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>103</td>
+                        <td>3,509</td>
+                        <td>01/07/1999</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>104</td>
+                        <td>1,509</td>
+                        <td>30/08/1999</td>
+                        <td>30/08/2000</td>
+                        <td>0</td>
+                        <td>1</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>105</td>
+                        <td>7,097</td>
+                        <td>30/05/2000</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>106</td>
+                        <td>1,333</td>
+                        <td>04/07/2001</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>107</td>
+                        <td>3,010</td>
+                        <td>31/01/2003</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>108</td>
+                        <td>6,509</td>
+                        <td>26/02/2002</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>1</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>109</td>
+                        <td>2,909</td>
+                        <td>01/09/2000</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>110</td>
+                        <td>6,909</td>
+                        <td>18/04/2002</td>
+                        <td>null</td>
+                        <td>1</td>
+                        <td>3</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>
