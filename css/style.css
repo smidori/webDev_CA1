@@ -1,12 +1,85 @@
-table {
-    border-collapse: collapse;
+/*my css comment*/
+caption {
+    /*background-color: orange;*/
+    padding: 0.5ch;
+    color: whitesmoke;
+    font-size: large;
+    /*background-image: linear-gradient(to right, red , yellow);*/
+    background-image: linear-gradient(to right, blue , purple, violet);
+
+}
+.icon-table {
+    vertical-align: text-top;
+    width: 1rem;
 }
 
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin:auto; 
+    
+    /*
+    border-radius: 5px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #666;
+    */
+}
+
+body {
+    margin: 1px;
+}
 td, th{
     border: 1px solid;
     padding: 0.5rem;
+    /*border-color: bisque;*/
+    border-color: cadetblue;
 }
 
 tbody tr:nth-child(odd){
-    background-color: lightgrey;
+    /* background-color: #f9ddb1;*/
+    background-color: #E1F5FE;
+}
+
+.data-type{
+    font-style: italic;
+    color: grey;
+}
+
+.content {
+    display: flex;
+    min-width: 98vw;
+}
+
+.content .side-menu {
+    float: left;
+    max-width: 20vw;
+    min-width: 20vw;
+    max-height: 98vh;
+    min-height: 98vh;
+    /*border-color: black;
+    border-style: solid;*/
+}
+
+.content .side-menu .menu-button {
+    background-color: blueviolet;
+    padding: 2ch;
+    margin: 2ch;
+    border-radius: 10px;
+}
+
+.content .side-menu .menu-button span {
+    font-size: large;
+    color: white;
+}
+
+.content .table-view {
+    float: right;
+    /*max-width: 78vw;*/
+    min-width: 78vw;
+    max-height: 98vh;
+    min-height: 98vh;
+    /*border-color: yellow;
+    border-style: solid; */
+    display: flex; /*to centralize the table*/
+    justify-content: center; /*to centralize the table*/
 }
