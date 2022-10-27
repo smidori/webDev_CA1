@@ -23,19 +23,24 @@
                 <caption><strong>Employee</strong></caption>
                 <thead>
                     <tr>
-                        <th>id<img src="images/pk.png" class="icon-table" alt="Primary Key"></th>
-                        <th>name <span class="data-type">(varchar)</span></th>
-                        <th>date_of_birth <span class="data-type">(date)</span></th>
-                        <th>gender <span class="data-type">(varchar)</span></th>
-                        <th>hire_date <span class="data-type">(date)</span></th>
-                        <th>fire_date <span class="data-type">(date)</span></th>
-                        <th>job_title_id <img src="images/fk.png" class="icon-table" alt="Foreign Key"></th>
+                        <th rowspan="2">id<img src="images/pk.png" class="icon-table" alt="Primary Key"></th>
+                        <th colspan="2">name <span class="data-type">(varchar)</span></th>
+                        <th rowspan="2">date_of_birth <span class="data-type">(date)</span></th>
+                        <th rowspan="2">gender <span class="data-type">(varchar)</span></th>
+                        <th rowspan="2">hire_date <span class="data-type">(date)</span></th>
+                        <th rowspan="2">fire_date <span class="data-type">(date)</span></th>
+                        <th rowspan="2">job_title_id <img src="images/fk.png" class="icon-table" alt="Foreign Key"></th>
+                    </tr>
+                    <tr>
+                        <th>first name <span class="data-type">(varchar)</span></th>
+                        <th>last name <span class="data-type">(varchar)</span></th>   
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
-                        <td>Jamie Doyle</td>
+                        <td>Jamie</td>
+                        <td>Doyle</td>
                         <td>23/05/1980</td>
                         <td>Male</td>
                         <td>12/02/1997</td>
@@ -44,7 +49,7 @@
                     </tr>
                     <tr>
                         <td>2</td>
-                        <td>Jesse Gleeson</td>
+                        <td>Jesse</td><td>Gleeson</td>
                         <td>05/02/1974</td>
                         <td>Female</td>
                         <td>27/09/1997</td>
@@ -53,7 +58,7 @@
                     </tr>
                     <tr>
                         <td>3</td>
-                        <td>Jimmy Chambers</td>
+                        <td>Jimmy </td><td>Chambers</td>
                         <td>01/11/1980</td>
                         <td>Male</td>
                         <td>27/08/1998</td>
@@ -62,7 +67,7 @@
                     </tr>
                     <tr>
                         <td>4</td>
-                        <td>Owen Simpson</td>
+                        <td>Owen</td><td>Simpson</td>
                         <td>15/12/2001</td>
                         <td>Female</td>
                         <td>07/03/1999</td>
@@ -71,7 +76,7 @@
                     </tr>
                     <tr>
                         <td>5</td>
-                        <td>Amara Mitchell</td>
+                        <td>Amara</td><td>Mitchell</td>
                         <td>25/12/1965</td>
                         <td>Female</td>
                         <td>06/04/1999</td>
@@ -80,7 +85,7 @@
                     </tr>
                     <tr>
                         <td>6</td>
-                        <td>Edith Armstrong</td>
+                        <td>Edith</td><td>Armstrong</td>
                         <td>09/10/1999</td>
                         <td>Female</td>
                         <td>27/09/1999</td>
@@ -89,7 +94,7 @@
                     </tr>
                     <tr>
                         <td>7</td>
-                        <td>Tobias Howard</td>
+                        <td>Tobias</td><td>Howard</td>
                         <td>27/07/1987</td>
                         <td>Male</td>
                         <td>21/05/2000</td>
@@ -98,7 +103,7 @@
                     </tr>
                     <tr>
                         <td>8</td>
-                        <td>Archie Moss</td>
+                        <td>Archie</td><td>Moss</td>
                         <td>05/02/1987</td>
                         <td>Male</td>
                         <td>27/09/2001</td>
@@ -107,7 +112,7 @@
                     </tr>
                     <tr>
                         <td>9</td>
-                        <td>Daisy Fisher</td>
+                        <td>Daisy</td><td>Fisher</td>
                         <td>31/07/1994</td>
                         <td>Female</td>
                         <td>27/08/2002</td>
@@ -116,7 +121,7 @@
                     </tr>
                     <tr>
                         <td>10</td>
-                        <td>Lara Booth</td>
+                        <td>Lara</td><td>Booth</td>
                         <td>31/10/1949</td>
                         <td>Female</td>
                         <td>27/09/2002</td>
