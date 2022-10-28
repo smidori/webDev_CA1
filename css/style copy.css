@@ -109,51 +109,45 @@ tbody tr:nth-child(odd) {
     min-height: 98vh;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-/*
-1° solution for fixed table header 
-.content .table-view .reason {
+.content .table-view-reason {
+    float: right;
     max-height: 68vh;
+    justify-content: center;
     overflow: auto;
 }
 
-.reason th {
+.reason {
+    display: flex;
+    float: right;
+    justify-content: center;
+    align-items:center;
+    min-width: 78vw;
+    min-height: 58vh;
+}
+
+.table-view-reason table {
+    text-align: left;
+    position: relative;
+    border-collapse: collapse;
+}
+
+.table-view-reason caption {
+    position: sticky;
+    top: 0;
+}
+
+.table-view-reason th {
     background: white;
     position: sticky;
     top: 0;
+    /* Don't forget this, required for the stickiness */
     box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
 }
-*/
 
-.reason table caption {
-    width: 217px;
-}
-
-.reason table tbody {
+.table-view-reason caption {
     display: block;
-    max-height: 300px;
-    overflow-y: scroll;
-}
-
-.reason table thead {
-    display: table;
-    table-layout: fixed;
-}
-
-
-.reason table tbody tr {
-    display: table;
-    table-layout: fixed;
-}
-
-.reason table td:nth-child(1), th:nth-child(1) {
-    width: 50px;
-}
-
-.reason table td:nth-child(2), th:nth-child(2) {
-    width: 140px;
 }
 
 .reason2 th {
