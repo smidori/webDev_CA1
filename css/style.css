@@ -1,10 +1,7 @@
-/*my css comment*/
 caption {
-    /*background-color: orange;*/
     padding: 0.5ch;
     color: whitesmoke;
     font-size: large;
-    /*background-image: linear-gradient(to right, red , yellow);*/
     background-image: linear-gradient(to right, blue, purple, violet);
 }
 
@@ -28,13 +25,11 @@ td,
 th {
     border: 1px solid;
     padding: 0.5rem;
-    /*border-color: bisque;*/
     border-color: cadetblue;
 }
 
 
 tbody tr:nth-child(odd) {
-    /* background-color: #f9ddb1;*/
     background-color: #E1F5FE;
 }
 
@@ -54,7 +49,7 @@ tbody tr:nth-child(odd) {
     min-width: 20vw;
     max-height: 98vh;
     align-items: center;
-    margin-top:5ch;
+    margin-top: 5ch;
 }
 
 .content .side-menu .menu-button {
@@ -68,8 +63,7 @@ tbody tr:nth-child(odd) {
 
 .content .side-menu a {
     text-decoration: none;
-/*    background-color: blueviolet;*/
-    background-image: radial-gradient(blue,rgb(185, 8, 185));
+    background-image: radial-gradient(blue, rgb(185, 8, 185));
     padding: 1ch;
     margin: 1ch;
     border-radius: 5px;
@@ -89,14 +83,6 @@ tbody tr:nth-child(odd) {
     padding-bottom: 0ch;
 }
 
-/*
-.content .side-menu div {
-    font-size: x-large;
-    color: blue;
-    padding: 2ch;
-    padding-bottom: 0ch;
-}
-*/
 .content .table-view {
     float: right;
     min-width: 78vw;
