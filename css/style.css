@@ -3,6 +3,8 @@ caption {
     color: whitesmoke;
     font-size: large;
     background-image: linear-gradient(to right, blue, purple, violet);
+    border-top-left-radius: 1ch;
+    border-top-right-radius: 1ch;
 }
 
 .icon-table {
@@ -14,11 +16,23 @@ table {
     border-collapse: separate;
     border-spacing: 0;
     margin: auto;
+    background-color: white;
+    border-bottom-left-radius: 1ch;
+    border-bottom-right-radius: 1ch;
 
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 1ch;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 1ch;
 }
 
 body {
     margin: 1px;
+    background-color: black;
 }
 
 td,
@@ -32,6 +46,7 @@ th {
 tbody tr:nth-child(odd) {
     background-color: #E1F5FE;
 }
+
 
 .data-type {
     font-style: italic;
@@ -78,7 +93,7 @@ tbody tr:nth-child(odd) {
 
 .menu-title {
     font-size: x-large;
-    color: blue;
+    color: snow;
     padding: 2ch;
     padding-bottom: 0ch;
 }
@@ -86,6 +101,7 @@ tbody tr:nth-child(odd) {
 .content .table-view {
     float: right;
     min-width: 78vw;
+    max-width: 78vw;
     max-height: 98vh;
     min-height: 98vh;
     display: flex;
@@ -109,7 +125,7 @@ tbody tr:nth-child(odd) {
 */
 
 .reason table caption {
-    width: 217px;
+    width: 233px;
 }
 
 .reason table tbody {
